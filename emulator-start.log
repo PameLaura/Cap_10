@@ -1,0 +1,119 @@
+INFO         | Android emulator version 37.2.13.0 (build_id 16740729) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | Found systemPath C:\Users\deivi\AppData\Local\Android\Sdk\system-images\android-27\google_apis_playstore\x86\
+INFO         | Found systemPath C:\Users\deivi\AppData\Local\Android\Sdk\system-images\android-27\google_apis_playstore\x86\
+INFO         | IPv4 server found: 190.113.220.18
+INFO         | Ignore IPv6 address: 804a:839d:1402:0:804a:839d:1402:0
+INFO         | Ignore IPv6 address: 804a:839d:1402:0:804a:839d:1402:0
+INFO         | Ignore IPv6 address: 804a:839d:1402:0:804a:839d:1402:0
+INFO         | Ignore IPv6 address: 9850:839d:1402:0:804a:839d:1402:0
+INFO         | Ignore IPv6 address: 9850:839d:1402:0:804a:839d:1402:0
+INFO         | Ignore IPv6 address: 9850:839d:1402:0:804a:839d:1402:0
+INFO         | Ignore IPv6 address: 5062:839d:1402:0:804a:839d:1402:0
+INFO         | Ignore IPv6 address: 5062:839d:1402:0:804a:839d:1402:0
+INFO         | Ignore IPv6 address: 5062:839d:1402:0:804a:839d:1402:0
+INFO         | Ignore IPv6 address: 3868:839d:1402:0:804a:839d:1402:0
+INFO         | Ignore IPv6 address: 3868:839d:1402:0:804a:839d:1402:0
+INFO         | Ignore IPv6 address: 3868:839d:1402:0:804a:839d:1402:0
+INFO         | Guest GLES Driver: Auto (ext controls)
+INFO         | emuglConfig_get_vulkan_hardware_gpu_support_info: Found physical GPU 'AMD Radeon(TM) Graphics', type: VK_PHYSICAL_DEVICE_TYPE_INTEGRATED_GPU, apiVersion: 1.3.260, driverVersion: 2.0.279
+
+INFO         | emuglConfig_init: vulkan_mode_selected:host gles_mode_selected:host
+INFO         | Enabled VulkanAllocateDeviceMemoryOnly feature for gpu vendor AMD Radeon(TM) Graphics on Linux
+
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasCompatibleHypervisor
+INFO         |      Ok: Hypervisor compatibility to run avd: `Pixel_2` are met
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `Pixel_2` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU requirements to run avd: `Pixel_2` are passed
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `Pixel_2` are met
+WARNING      | FeatureControl is requesting a non existing feature.
+INFO         | Critical: Failed to load opengl32sw (No se puede encontrar el módulo especificado.) (:0, )
+INFO         | Warning: Software OpenGL failed. Falling back to system OpenGL. (:0, )
+INFO         | Storing crashdata in: C:\Users\deivi\AppData\Local\Temp\\AndroidEmulator\emu-crash-37.2.13.db, detection is enabled for process: 3016
+INFO         | Initializing gfxstream backend
+INFO         | startOpenglesRendererImpl: gpu info
+INFO         | GPU #1
+  Make: 1002
+  Model: AMD Radeon(TM) Graphics
+  Device ID: 164c
+
+INFO         | Graphics Adapter Vendor Google (ATI Technologies Inc.)
+INFO         | Graphics Adapter Android Emulator OpenGL ES Translator (AMD Radeon(TM) Graphics)
+INFO         | Graphics API Version OpenGL ES 3.0 (4.5.0 Core Profile Context 23.19.14.08.240820)
+INFO         | Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_OVR_multiview2 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_EXT_texture_buffer 
+INFO         | Graphics Device Extensions N/A
+INFO         | Verified boot params were not found.
+INFO         | Userspace boot properties:
+INFO         |   android.qemud=1
+INFO         |   androidboot.android_dt_dir=/sys/bus/platform/devices/ANDR0001:00/properties/android/
+INFO         |   androidboot.hardware=ranchu
+INFO         |   androidboot.serialno=EMULATOR37X2X13X0
+INFO         |   qemu=1
+INFO         |   qemu.avd_name=Pixel_2
+INFO         |   qemu.camera_hq_edge_processing=0
+INFO         |   qemu.dalvik.vm.heapsize=512m
+INFO         |   qemu.encrypt=1
+INFO         |   qemu.gles=1
+INFO         |   qemu.gltransport=pipe
+INFO         |   qemu.gltransport.drawFlushInterval=800
+INFO         |   qemu.opengles.version=131072
+INFO         |   qemu.settings.system.screen_off_timeout=2147483647
+INFO         |   qemu.skin=pixel_2
+INFO         |   qemu.vsync=60
+INFO         |   qemu.wifi=1
+WHPX on Windows 10.0.26200 detected.
+Windows Hypervisor Platform accelerator is operational
+INFO         | Monitoring duration of emulator setup.
+WARNING      | The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+INFO         | Using security allow list from: C:\Users\deivi\AppData\Local\Android\Sdk\emulator\lib\emulator_access.json
+INFO         | The active JSON Web Key Sets can be found here: C:\Users\deivi\AppData\Local\Temp\avd\running\3016\jwks\4990fe86-a75e-470a-9e94-490d07790750\active.jwk
+INFO         | Scanning C:\Users\deivi\AppData\Local\Temp\avd\running\3016\jwks\4990fe86-a75e-470a-9e94-490d07790750 for jwk keys.
+INFO         | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
+INFO         | Advertising in: C:\Users\deivi\AppData\Local\Temp\avd\running\pid_3016.ini
+INFO         | Setting display: 0 configuration to: 1080x1920, dpi: 420x420 
+INFO         | setDisplayActiveConfig: id:0, 1080x1920
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasCompatibleHypervisor
+INFO         |      Ok: Hypervisor compatibility to run avd: `Pixel_2` are met
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `Pixel_2` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU requirements to run avd: `Pixel_2` are passed
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `Pixel_2` are met
+WARNING      | getEnvironmentConfig: No environment config is provided
+INFO         | getEnvironmentConfig: Using default virtual scene mode for the environment.
+INFO         | getEnvironmentConfig: Using default configuration for mode mesh3d for the environment.
+INFO         | Initializing a scene with mode: mesh3d, argument: Toren1BD.obj
+USER_INFO    | Emulator is performing a full startup. This may take upto two minutes, or more.
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_rgbcSensorValueWidget_valueChanged() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_posture_valueChanged(int) (:0, )
+INFO         | TouchpadHolder: registering via hw_xr_led agent for instance=000002148325A6D0
+INFO         | Warning: QObject::connect: Cannot queue arguments of type 'std::vector<android::emulation::control::SnapshotInfo>'
+(Make sure 'std::vector<android::emulation::control::SnapshotInfo>' is registered using qRegisterMetaType().) (:0, )
+INFO         | AVD supportsNativeGLES=1, supportsGuestAngle=0
+INFO         | Platform does not support Guest Angle
+INFO         | Created extended window in 662.811ms
+WARNING      | adb command 'C:\Users\deivi\AppData\Local\Android\Sdk\platform-tools\adb.exe -s emulator-5554 shell getprop sys.boot_completed ' failed: 'adb.exe: device offline'
+WARNING      | adb command 'C:\Users\deivi\AppData\Local\Android\Sdk\platform-tools\adb.exe -s emulator-5554 shell getprop sys.boot_completed ' failed: 'adb.exe: device offline'
+INFO         | Critical: UpdateLayeredWindowIndirect failed for ptDst=(448, -909), size=(375x26), dirty=(375x26 0, 0) (Uno de los dispositivos conectados al sistema no funciona.) (:0, )
+WARNING      | adb command 'C:\Users\deivi\AppData\Local\Android\Sdk\platform-tools\adb.exe -s emulator-5554 shell getprop sys.boot_completed ' failed: 'adb.exe: device offline'
+WARNING      | adb command 'C:\Users\deivi\AppData\Local\Android\Sdk\platform-tools\adb.exe -s emulator-5554 shell getprop sys.boot_completed ' failed: 'adb.exe: device offline'
+WARNING      | adb command 'C:\Users\deivi\AppData\Local\Android\Sdk\platform-tools\adb.exe -s emulator-5554 shell getprop sys.boot_completed ' failed: 'adb.exe: device offline'
+WARNING      | adb command 'C:\Users\deivi\AppData\Local\Android\Sdk\platform-tools\adb.exe -s emulator-5554 shell getprop sys.boot_completed ' failed: 'adb.exe: device offline'
+WARNING      | adb command 'C:\Users\deivi\AppData\Local\Android\Sdk\platform-tools\adb.exe -s emulator-5554 shell getprop sys.boot_completed ' failed: 'adb.exe: device offline'
+WARNING      | adb command 'C:\Users\deivi\AppData\Local\Android\Sdk\platform-tools\adb.exe -s emulator-5554 shell getprop sys.boot_completed ' failed: 'adb.exe: device offline'
+INFO         | Boot completed in 52946 ms
+INFO         | Increasing screen off timeout, logcat buffer size to 2M.
+INFO         | Warning: Retrying to obtain clipboard. (:0, )
+INFO         | Critical: UpdateLayeredWindowIndirect failed for ptDst=(448, -909), size=(375x26), dirty=(375x26 0, 0) (Uno de los dispositivos conectados al sistema no funciona.) (:0, )
+INFO         | Wait for emulator (pid 3016) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+
+INFO         | Saving with gfxstream=1
+INFO         | Saving snapshot 'default_boot' took 2055 ms
+INFO         | removeScene: scene=0x21480e29ba0
+INFO         | removeAll
